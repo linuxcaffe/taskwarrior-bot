@@ -4,7 +4,7 @@ from telegram.ext import Updater, CommandHandler
 
 
 def start(bot, update):
-    bot.sendMessage(update.message.chat_id, text='Hello World!')
+    bot.sendMessage(update.message.chat_id, text='I am tw_bot!')
 
 
 def hello(bot, update):
